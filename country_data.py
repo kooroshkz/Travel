@@ -18,6 +18,7 @@ def load_country_data():
 
         # France
         'Paris': {'Country': 'France', 'Latitude': 48.8566, 'Longitude': 2.3522, 'Flag': 'https://flagcdn.com/fr.svg'},
+        'Versailles': {'Country': 'France', 'Latitude': 48.8014, 'Longitude': 2.1301, 'Flag': 'https://flagcdn.com/fr.svg'},
 
         # Germany
         'Dusseldorf': {'Country': 'Germany', 'Latitude': 51.2277, 'Longitude': 6.7735, 'Flag': 'https://flagcdn.com/de.svg'},
@@ -48,6 +49,11 @@ def load_country_data():
         'Bandar Abbas': {'Country': 'Iran', 'Latitude': 27.1832, 'Longitude': 56.2654, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Hormuz Island': {'Country': 'Iran', 'Latitude': 27.1384, 'Longitude': 56.2333, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Ardebil': {'Country': 'Iran', 'Latitude': 38.4853, 'Longitude': 47.8911, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Abianeh': {'Country': 'Iran', 'Latitude': 33.3093, 'Longitude': 51.7348, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Sarein': {'Country': 'Iran', 'Latitude': 38.1500, 'Longitude': 48.0667, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Asalem': {'Country': 'Iran', 'Latitude': 37.8325, 'Longitude': 48.9900, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Khalkhal': {'Country': 'Iran', 'Latitude': 37.6186, 'Longitude': 48.5253, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Bandar Anzali': {'Country': 'Iran', 'Latitude': 37.4724, 'Longitude': 49.4621, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Talesh': {'Country': 'Iran', 'Latitude': 37.8074, 'Longitude': 48.9016, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Sari': {'Country': 'Iran', 'Latitude': 36.5633, 'Longitude': 53.0601, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Babol': {'Country': 'Iran', 'Latitude': 36.5513, 'Longitude': 52.6787, 'Flag': 'https://flagcdn.com/ir.svg'},
@@ -56,10 +62,11 @@ def load_country_data():
         'Najafabad': {'Country': 'Iran', 'Latitude': 32.6342, 'Longitude': 51.3667, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Fereydunkenar': {'Country': 'Iran', 'Latitude': 36.6864, 'Longitude': 52.5225, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Namakabrud': {'Country': 'Iran', 'Latitude': 36.6497, 'Longitude': 52.9106, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Noor': {'Country': 'Iran', 'Latitude': 36.5450, 'Longitude': 52.7947, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Noshahr': {'Country': 'Iran', 'Latitude': 36.6500, 'Longitude': 51.4960, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Ramsar': {'Country': 'Iran', 'Latitude': 36.8937, 'Longitude': 50.6550, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Chalus': {'Country': 'Iran', 'Latitude': 36.6548, 'Longitude': 51.4200, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Lahijan': {'Country': 'Iran', 'Latitude': 37.2083, 'Longitude': 50.0036, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Abianeh': {'Country': 'Iran', 'Latitude': 33.3093, 'Longitude': 51.7348, 'Flag': 'https://flagcdn.com/ir.svg'},
 
         # Luxembourg
         'Luxembourg City': {'Country': 'Luxembourg', 'Latitude': 49.6116, 'Longitude': 6.1319, 'Flag': 'https://flagcdn.com/lu.svg'},
@@ -108,10 +115,13 @@ def load_country_data():
         'Barcelona': {'Country': 'Spain', 'Latitude': 41.3851, 'Longitude': 2.1734, 'Flag': 'https://flagcdn.com/es.svg'},
 
         # Switzerland
+        'Geneva': {'Country': 'Switzerland', 'Latitude': 46.2044, 'Longitude': 6.1432, 'Flag': 'https://flagcdn.com/ch.svg'},
+        'Lucerne': {'Country': 'Switzerland', 'Latitude': 47.0502, 'Longitude': 8.3093, 'Flag': 'https://flagcdn.com/ch.svg'},
         'Zurich': {'Country': 'Switzerland', 'Latitude': 47.3769, 'Longitude': 8.5417, 'Flag': 'https://flagcdn.com/ch.svg'},
 
         # Thailand
-        'Thailand': {'Country': 'Thailand', 'Latitude': 15.8700, 'Longitude': 100.9925, 'Flag': 'https://flagcdn.com/th.svg'},
+        'Bangkok': {'Country': 'Thailand', 'Latitude': 13.7563, 'Longitude': 100.5018, 'Flag': 'https://flagcdn.com/th.svg'},
+        'Pataya': {'Country': 'Thailand', 'Latitude': 12.9276, 'Longitude': 100.8777, 'Flag': 'https://flagcdn.com/th.svg'},
 
         # Turkey
         'Istanbul': {'Country': 'Turkey', 'Latitude': 41.0082, 'Longitude': 28.9784, 'Flag': 'https://flagcdn.com/tr.svg'},
