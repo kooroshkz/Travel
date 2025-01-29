@@ -33,6 +33,14 @@ def load_country_data():
         # Hungary
         'Budapest': {'Country': 'Hungary', 'Latitude': 47.4979, 'Longitude': 19.0402, 'Flag': 'https://flagcdn.com/hu.svg'},
 
+        # Italy
+        'Milan': {'Country': 'Italy', 'Latitude': 45.4642, 'Longitude': 9.1900, 'Flag': 'https://flagcdn.com/it.svg'},
+        'Venice': {'Country': 'Italy', 'Latitude': 45.4408, 'Longitude': 12.3155, 'Flag': 'https://flagcdn.com/it.svg'},
+        'Verona': {'Country': 'Italy', 'Latitude': 45.4384, 'Longitude': 10.9916, 'Flag': 'https://flagcdn.com/it.svg'},
+        'Turin': {'Country': 'Italy', 'Latitude': 45.0703, 'Longitude': 7.6869, 'Flag': 'https://flagcdn.com/it.svg'},
+        'Bergamo': {'Country': 'Italy', 'Latitude': 45.6983, 'Longitude': 9.6773, 'Flag': 'https://flagcdn.com/it.svg'},
+        'Genoa': {'Country': 'Italy', 'Latitude': 44.4056, 'Longitude': 8.9463, 'Flag': 'https://flagcdn.com/it.svg'},
+        
         # Iran
         'Tehran': {'Country': 'Iran', 'Latitude': 35.6892, 'Longitude': 51.3890, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Shiraz': {'Country': 'Iran', 'Latitude': 29.5916, 'Longitude': 52.5836, 'Flag': 'https://flagcdn.com/ir.svg'},
