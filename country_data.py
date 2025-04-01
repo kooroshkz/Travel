@@ -111,7 +111,8 @@ def load_country_data():
         'Rijnsburg': {'Country': 'Netherlands', 'Latitude': 52.1910, 'Longitude': 4.4430, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Arnheim': {'Country': 'Netherlands', 'Latitude': 51.9851, 'Longitude': 5.8987, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Rijswijk': {'Country': 'Netherlands', 'Latitude': 52.0373, 'Longitude': 4.3250, 'Flag': 'https://flagcdn.com/nl.svg'},
-
+        'Amesfoort': {'Country': 'Netherlands', 'Latitude': 52.1561, 'Longitude': 5.3872, 'Flag': 'https://flagcdn.com/nl.svg'},
+        
         # Russia
         'Moscow': {'Country': 'Russia', 'Latitude': 55.7558, 'Longitude': 37.6176, 'Flag': 'https://flagcdn.com/ru.svg'},
         'Saint Petersburg': {'Country': 'Russia', 'Latitude': 59.9343, 'Longitude': 30.3351, 'Flag': 'https://flagcdn.com/ru.svg'},
