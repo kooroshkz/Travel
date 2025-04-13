@@ -13,6 +13,7 @@ def load_country_data():
         # Belgium
         'Antwerp': {'Country': 'Belgium', 'Latitude': 51.2194, 'Longitude': 4.4025, 'Flag': 'https://flagcdn.com/be.svg'},
         'Ghent': {'Country': 'Belgium', 'Latitude': 51.0543, 'Longitude': 3.7174, 'Flag': 'https://flagcdn.com/be.svg'},
+        'Brussels': {'Country': 'Belgium', 'Latitude': 50.8503, 'Longitude': 4.3517, 'Flag': 'https://flagcdn.com/be.svg'},
 
         # Czech Republic
         'Prague': {'Country': 'Czech Republic', 'Latitude': 50.0755, 'Longitude': 14.4378, 'Flag': 'https://flagcdn.com/cz.svg'},
