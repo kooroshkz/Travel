@@ -46,22 +46,21 @@ def load_country_data():
         # Iran
         'Tehran': {'Country': 'Iran', 'Latitude': 35.6892, 'Longitude': 51.3890, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Shiraz': {'Country': 'Iran', 'Latitude': 29.5916, 'Longitude': 52.5836, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Isfahan': {'Country': 'Iran', 'Latitude': 32.4279, 'Longitude': 51.6874, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Isfahan': {'Country': 'Iran', 'Latitude': 32.65246, 'Longitude': 51.67462, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Yazd': {'Country': 'Iran', 'Latitude': 31.8795, 'Longitude': 54.2666, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Qazvin': {'Country': 'Iran', 'Latitude': 36.2704, 'Longitude': 50.0041, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Kashan': {'Country': 'Iran', 'Latitude': 33.9831, 'Longitude': 51.4090, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Rasht': {'Country': 'Iran', 'Latitude': 37.2808, 'Longitude': 49.5832, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Mazandaran': {'Country': 'Iran', 'Latitude': 36.4270, 'Longitude': 52.6776, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Gorgan': {'Country': 'Iran', 'Latitude': 36.8176, 'Longitude': 54.4343, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Qom': {'Country': 'Iran', 'Latitude': 34.6401, 'Longitude': 50.8764, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Kish Island': {'Country': 'Iran', 'Latitude': 26.5569, 'Longitude': 53.9676, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Qeshm Island': {'Country': 'Iran', 'Latitude': 26.9580, 'Longitude': 56.2719, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Bandar Abbas': {'Country': 'Iran', 'Latitude': 27.1832, 'Longitude': 56.2654, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Hormuz Island': {'Country': 'Iran', 'Latitude': 27.1384, 'Longitude': 56.2333, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Ardebil': {'Country': 'Iran', 'Latitude': 38.4853, 'Longitude': 47.8911, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Abianeh': {'Country': 'Iran', 'Latitude': 33.3093, 'Longitude': 51.7348, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Hormuz Island': {'Country': 'Iran', 'Latitude': 27.06667, 'Longitude': 56.45000, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Ardebil': {'Country': 'Iran', 'Latitude': 38.24980, 'Longitude': 48.29330, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Abianeh': {'Country': 'Iran', 'Latitude': 33.58667, 'Longitude': 51.59000, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Sarein': {'Country': 'Iran', 'Latitude': 38.1500, 'Longitude': 48.0667, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Asalem': {'Country': 'Iran', 'Latitude': 37.8325, 'Longitude': 48.9900, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Asalem': {'Country': 'Iran', 'Latitude': 37.71670, 'Longitude': 48.95965, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Khalkhal': {'Country': 'Iran', 'Latitude': 37.6186, 'Longitude': 48.5253, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Bandar Anzali': {'Country': 'Iran', 'Latitude': 37.4724, 'Longitude': 49.4621, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Talesh': {'Country': 'Iran', 'Latitude': 37.8074, 'Longitude': 48.9016, 'Flag': 'https://flagcdn.com/ir.svg'},
@@ -71,19 +70,27 @@ def load_country_data():
         'Karaj': {'Country': 'Iran', 'Latitude': 35.8355, 'Longitude': 51.0107, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Najafabad': {'Country': 'Iran', 'Latitude': 32.6342, 'Longitude': 51.3667, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Fereydunkenar': {'Country': 'Iran', 'Latitude': 36.6864, 'Longitude': 52.5225, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Namakabrud': {'Country': 'Iran', 'Latitude': 36.6497, 'Longitude': 52.9106, 'Flag': 'https://flagcdn.com/ir.svg'},
-        'Noor': {'Country': 'Iran', 'Latitude': 36.5450, 'Longitude': 52.7947, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Namakabrud': {'Country': 'Iran', 'Latitude': 36.67254, 'Longitude': 51.30247, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Noor': {'Country': 'Iran', 'Latitude': 36.57504, 'Longitude': 52.02684, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Noshahr': {'Country': 'Iran', 'Latitude': 36.6500, 'Longitude': 51.4960, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Ramsar': {'Country': 'Iran', 'Latitude': 36.8937, 'Longitude': 50.6550, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Chalus': {'Country': 'Iran', 'Latitude': 36.6548, 'Longitude': 51.4200, 'Flag': 'https://flagcdn.com/ir.svg'},
         'Lahijan': {'Country': 'Iran', 'Latitude': 37.2083, 'Longitude': 50.0036, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Mahmudabad': {'Country': 'Iran', 'Latitude': 36.62861, 'Longitude': 52.26444, 'Flag': 'https://flagcdn.com/ir.svg'},
+        'Juybar': {'Country': 'Iran', 'Latitude': 36.63750, 'Longitude': 52.90056, 'Flag': 'https://flagcdn.com/ir.svg'}, 
+        'Astara': {'Country': 'Iran', 'Latitude': 38.42194, 'Longitude': 48.86917, 'Flag': 'https://flagcdn.com/ir.svg'}, 
+        'Kelardasht': {'Country': 'Iran', 'Latitude': 36.50556, 'Longitude': 51.15889, 'Flag': 'https://flagcdn.com/ir.svg'}, 
+        'Amol': {'Country': 'Iran', 'Latitude': 36.47028, 'Longitude': 52.34667, 'Flag': 'https://flagcdn.com/ir.svg'}, 
+        'Qaem Shahr': {'Country': 'Iran', 'Latitude': 36.46361, 'Longitude': 52.85806, 'Flag': 'https://flagcdn.com/ir.svg'}, 
+        'Behshahr': {'Country': 'Iran', 'Latitude': 36.69361, 'Longitude': 53.55306, 'Flag': 'https://flagcdn.com/ir.svg'}, 
+        'Aliabad-e Katul': {'Country': 'Iran', 'Latitude': 36.90750, 'Longitude': 54.86667, 'Flag': 'https://flagcdn.com/ir.svg'},
 
         # Luxembourg
         'Luxembourg City': {'Country': 'Luxembourg', 'Latitude': 49.6116, 'Longitude': 6.1319, 'Flag': 'https://flagcdn.com/lu.svg'},
 
         # Malaysia
         'Kuala Lumpur': {'Country': 'Malaysia', 'Latitude': 3.139, 'Longitude': 101.6869, 'Flag': 'https://flagcdn.com/my.svg'},
-        'Lankawi': {'Country': 'Malaysia', 'Latitude': 6.3500, 'Longitude': 99.8000, 'Flag': 'https://flagcdn.com/my.svg'},
+        'Langkawi': {'Country': 'Malaysia', 'Latitude': 6.3500, 'Longitude': 99.8000, 'Flag': 'https://flagcdn.com/my.svg'},
 
         # Netherlands
         'The Hague': {'Country': 'Netherlands', 'Latitude': 52.0705, 'Longitude': 4.3007, 'Flag': 'https://flagcdn.com/nl.svg'},
@@ -97,7 +104,7 @@ def load_country_data():
         'Leiden': {'Country': 'Netherlands', 'Latitude': 52.1601, 'Longitude': 4.4970, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Delft': {'Country': 'Netherlands', 'Latitude': 52.0116, 'Longitude': 4.3571, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Schiedam': {'Country': 'Netherlands', 'Latitude': 51.9194, 'Longitude': 4.3883, 'Flag': 'https://flagcdn.com/nl.svg'},
-        'Scheiveningen': {'Country': 'Netherlands', 'Latitude': 52.1040, 'Longitude': 4.2754, 'Flag': 'https://flagcdn.com/nl.svg'},
+        'Scheveningen': {'Country': 'Netherlands', 'Latitude': 52.1040, 'Longitude': 4.2754, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Haarlem': {'Country': 'Netherlands', 'Latitude': 52.3874, 'Longitude': 4.6462, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Zoetermeer': {'Country': 'Netherlands', 'Latitude': 52.0570, 'Longitude': 4.4936, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Zaandam': {'Country': 'Netherlands', 'Latitude': 52.4388, 'Longitude': 4.8255, 'Flag': 'https://flagcdn.com/nl.svg'},
@@ -110,9 +117,13 @@ def load_country_data():
         'Vorschooten': {'Country': 'Netherlands', 'Latitude': 52.1300, 'Longitude': 4.4260, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Wassenaar': {'Country': 'Netherlands', 'Latitude': 52.1480, 'Longitude': 4.4068, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Rijnsburg': {'Country': 'Netherlands', 'Latitude': 52.1910, 'Longitude': 4.4430, 'Flag': 'https://flagcdn.com/nl.svg'},
-        'Arnheim': {'Country': 'Netherlands', 'Latitude': 51.9851, 'Longitude': 5.8987, 'Flag': 'https://flagcdn.com/nl.svg'},
+        'Arnhem': {'Country': 'Netherlands', 'Latitude': 51.9851, 'Longitude': 5.8987, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Rijswijk': {'Country': 'Netherlands', 'Latitude': 52.0373, 'Longitude': 4.3250, 'Flag': 'https://flagcdn.com/nl.svg'},
-        'Amesfoort': {'Country': 'Netherlands', 'Latitude': 52.1561, 'Longitude': 5.3872, 'Flag': 'https://flagcdn.com/nl.svg'},
+        'Amersfoort': {'Country': 'Netherlands', 'Latitude': 52.1561, 'Longitude': 5.3872, 'Flag': 'https://flagcdn.com/nl.svg'},
+
+        # Portgual
+        'Faro': {'Country': 'Portugal', 'Latitude': 37.01935, 'Longitude': -7.93044, 'Flag': 'https://flagcdn.com/pt.svg'},
+        'Lisbon': {'Country': 'Portugal', 'Latitude': 38.7169, 'Longitude': -9.1395, 'Flag': 'https://flagcdn.com/pt.svg'},
         
         # Russia
         'Moscow': {'Country': 'Russia', 'Latitude': 55.7558, 'Longitude': 37.6176, 'Flag': 'https://flagcdn.com/ru.svg'},
@@ -132,7 +143,7 @@ def load_country_data():
 
         # Thailand
         'Bangkok': {'Country': 'Thailand', 'Latitude': 13.7563, 'Longitude': 100.5018, 'Flag': 'https://flagcdn.com/th.svg'},
-        'Pataya': {'Country': 'Thailand', 'Latitude': 12.9276, 'Longitude': 100.8777, 'Flag': 'https://flagcdn.com/th.svg'},
+        'Pattaya': {'Country': 'Thailand', 'Latitude': 12.9276, 'Longitude': 100.8777, 'Flag': 'https://flagcdn.com/th.svg'},
 
         # Turkey
         'Istanbul': {'Country': 'Turkey', 'Latitude': 41.0082, 'Longitude': 28.9784, 'Flag': 'https://flagcdn.com/tr.svg'},
@@ -149,7 +160,7 @@ def load_country_data():
         'London': {'Country': 'United Kingdom', 'Latitude': 51.5074, 'Longitude': -0.1278, 'Flag': 'https://flagcdn.com/gb.svg'},
 
         # Ukraine
-        'Kiev': {'Country': 'Ukraine', 'Latitude': 50.4501, 'Longitude': 30.5234, 'Flag': 'https://flagcdn.com/ua.svg'}
+        'Kyiv': {'Country': 'Ukraine', 'Latitude': 50.4501, 'Longitude': 30.5234, 'Flag': 'https://flagcdn.com/ua.svg'}
     }
 
     return pd.DataFrame.from_dict(data, orient='index')
