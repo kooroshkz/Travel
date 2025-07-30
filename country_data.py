@@ -32,6 +32,10 @@ def load_country_data():
         'Mainz': {'Country': 'Germany', 'Latitude': 49.9929, 'Longitude': 8.2473, 'Flag': 'https://flagcdn.com/de.svg'},
         'Bonn': {'Country': 'Germany', 'Latitude': 50.7374, 'Longitude': 7.0982, 'Flag': 'https://flagcdn.com/de.svg'},
 
+        # Georgia
+        'Tbilisi': {'Country': 'Georgia', 'Latitude': 41.7151, 'Longitude': 44.8271, 'Flag': 'https://flagcdn.com/ge.svg'},
+        'Batumi': {'Country': 'Georgia', 'Latitude': 41.6168, 'Longitude': 41.6367, 'Flag': 'https://flagcdn.com/ge.svg'},
+
         # Hungary
         'Budapest': {'Country': 'Hungary', 'Latitude': 47.4979, 'Longitude': 19.0402, 'Flag': 'https://flagcdn.com/hu.svg'},
 
