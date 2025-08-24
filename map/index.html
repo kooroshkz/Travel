@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visited Countries Flag Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { margin: 0; }
+    svg { width: 100vw; height: 100vh; display: block; }
+  </style>
+</head>
+<body>
+  <svg></svg>
+
+  <!-- D3.js and TopoJSON for map rendering -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+
+  <script>
+    // List of countries you've visited
+    const visited = [
+      'Albania','Austria','Belgium','Czech Republic','France','Germany','Hungary','Italy',
+      'Iran','Luxembourg','Malaysia','Netherlands','Portugal','Russia','Slovakia','Spain',
+      'Switzerland','Thailand','Turkey','United Arab Emirates','United Kingdom','Ukraine', 'Monaco'
+    ];
+
+    // Map country names to their 2-letter flag code
+    const flagMap = {
+      'Albania':'al','Austria':'at','Belgium':'be','Czech Republic':'cz','France':'fr','Germany':'de',
+      'Hungary':'hu','Monaco':'mc','Italy':'it','Iran':'ir','Luxembourg':'lu','Malaysia':'my','Netherlands':'nl',
+      'Portugal':'pt','Russia':'ru','Slovakia':'sk','Spain':'es','Switzerland':'ch','Thailand':'th',
+      'Turkey':'tr','United Arab Emirates':'ae','United Kingdom':'gb','Ukraine':'ua'
+    };
+
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    const svg = d3.select('svg');
+    const g = svg.append('g');
+
+    // Map projection and path
+    const projection = d3.geoMercator()
+      .scale(width / 2 / Math.PI)
+      .translate([width / 2, height / 1.5]);
+    const path = d3.geoPath(projection);
+
+    // Enable zooming and panning
+    svg.call(d3.zoom()
+      .scaleExtent([1, 8])
+      .on('zoom', (event) => { g.attr('transform', event.transform); })
+    );
+
+    // Define SVG patterns for each visited country's flag
+    const defs = svg.append('defs');
+    visited.forEach(country => {
+      const code = flagMap[country];
+      defs.append('pattern')
+        .attr('id', 'flag-' + code)
+        .attr('patternUnits', 'objectBoundingBox')
+        .attr('patternContentUnits', 'objectBoundingBox')
+        .attr('width', 1)
+        .attr('height', 1)
+        .append('image')
+        .attr('href', 'https://flagcdn.com/' + code + '.svg')
+        .attr('width', 1)
+        .attr('height', 1)
+        .attr('preserveAspectRatio', 'none');
+    });
+
+    // Load and render world map
+    fetch('https://unpkg.com/world-atlas@2/countries-110m.json')
+      .then(response => response.json())
+      .then(world => {
+        const countries = topojson.feature(world, world.objects.countries).features;
+        g.selectAll('path')
+          .data(countries)
+          .enter().append('path')
+          .attr('d', path)
+          .attr('fill', d => {
+            const name = d.properties.name;
+            if (visited.includes(name)) {
+              const code = flagMap[name];
+              return 'url(#flag-' + code + ')';
+            }
+            return '#e0e0e0';
+          })
+          .attr('stroke', '#999');
+      });
+  </script>
+</body>
+</html>

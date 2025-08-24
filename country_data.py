@@ -19,6 +19,7 @@ def load_country_data():
         'Prague': {'Country': 'Czech Republic', 'Latitude': 50.0755, 'Longitude': 14.4378, 'Flag': 'https://flagcdn.com/cz.svg'},
 
         # France
+        'Nice': {'Country': 'France', 'Latitude': 43.7102, 'Longitude': 7.2620, 'Flag': 'https://flagcdn.com/fr.svg'},
         'Paris': {'Country': 'France', 'Latitude': 48.8566, 'Longitude': 2.3522, 'Flag': 'https://flagcdn.com/fr.svg'},
         'Versailles': {'Country': 'France', 'Latitude': 48.8014, 'Longitude': 2.1301, 'Flag': 'https://flagcdn.com/fr.svg'},
 
@@ -96,11 +97,15 @@ def load_country_data():
         'Kuala Lumpur': {'Country': 'Malaysia', 'Latitude': 3.139, 'Longitude': 101.6869, 'Flag': 'https://flagcdn.com/my.svg'},
         'Langkawi': {'Country': 'Malaysia', 'Latitude': 6.3500, 'Longitude': 99.8000, 'Flag': 'https://flagcdn.com/my.svg'},
 
+        # Monaco
+        'Monte Carlo': {'Country': 'Monaco', 'Latitude': 43.7396, 'Longitude': 7.4276, 'Flag': 'https://flagcdn.com/mc.svg'},
+
         # Netherlands
         'The Hague': {'Country': 'Netherlands', 'Latitude': 52.0705, 'Longitude': 4.3007, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Amsterdam': {'Country': 'Netherlands', 'Latitude': 52.3676, 'Longitude': 4.9041, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Rotterdam': {'Country': 'Netherlands', 'Latitude': 51.9225, 'Longitude': 4.4792, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Utrecht': {'Country': 'Netherlands', 'Latitude': 52.0907, 'Longitude': 5.1214, 'Flag': 'https://flagcdn.com/nl.svg'},
+        'Gouda': {'Country': 'Netherlands', 'Latitude': 52.0116, 'Longitude': 4.7105, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Groningen': {'Country': 'Netherlands', 'Latitude': 53.2194, 'Longitude': 6.5665, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Maastricht': {'Country': 'Netherlands', 'Latitude': 50.8514, 'Longitude': 5.6912, 'Flag': 'https://flagcdn.com/nl.svg'},
         'Eindhoven': {'Country': 'Netherlands', 'Latitude': 51.4416, 'Longitude': 5.4697, 'Flag': 'https://flagcdn.com/nl.svg'},
@@ -150,10 +155,12 @@ def load_country_data():
         'Pattaya': {'Country': 'Thailand', 'Latitude': 12.9276, 'Longitude': 100.8777, 'Flag': 'https://flagcdn.com/th.svg'},
 
         # Turkey
-        'Istanbul': {'Country': 'Turkey', 'Latitude': 41.0082, 'Longitude': 28.9784, 'Flag': 'https://flagcdn.com/tr.svg'},
+        'Alacati': {'Country': 'Turkey', 'Latitude': 38.2825, 'Longitude': 26.3746, 'Flag': 'https://flagcdn.com/tr.svg'},
         'Ankara': {'Country': 'Turkey', 'Latitude': 39.9334, 'Longitude': 32.8597, 'Flag': 'https://flagcdn.com/tr.svg'},
         'Antalya': {'Country': 'Turkey', 'Latitude': 36.8969, 'Longitude': 30.7133, 'Flag': 'https://flagcdn.com/tr.svg'},
         'Adana': {'Country': 'Turkey', 'Latitude': 37.0017, 'Longitude': 35.3289, 'Flag': 'https://flagcdn.com/tr.svg'},
+        'Cesme': {'Country': 'Turkey', 'Latitude': 38.3211, 'Longitude': 26.3086, 'Flag': 'https://flagcdn.com/tr.svg'},
+        'Istanbul': {'Country': 'Turkey', 'Latitude': 41.0082, 'Longitude': 28.9784, 'Flag': 'https://flagcdn.com/tr.svg'},
         'Izmir': {'Country': 'Turkey', 'Latitude': 38.4192, 'Longitude': 27.1287, 'Flag': 'https://flagcdn.com/tr.svg'},
 
         # United Arab Emirates
