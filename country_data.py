@@ -14,6 +14,11 @@ def load_country_data():
         'Antwerp': {'Country': 'Belgium', 'Latitude': 51.2194, 'Longitude': 4.4025, 'Flag': 'https://flagcdn.com/be.svg'},
         'Ghent': {'Country': 'Belgium', 'Latitude': 51.0543, 'Longitude': 3.7174, 'Flag': 'https://flagcdn.com/be.svg'},
         'Brussels': {'Country': 'Belgium', 'Latitude': 50.8503, 'Longitude': 4.3517, 'Flag': 'https://flagcdn.com/be.svg'},
+        'Bruges': {'Country': 'Belgium', 'Latitude': 51.2093, 'Longitude': 3.2247, 'Flag': 'https://flagcdn.com/be.svg'},
+        'Lier': {'Country': 'Belgium', 'Latitude': 51.1356, 'Longitude': 4.5481, 'Flag': 'https://flagcdn.com/be.svg'},
+
+        #Bulgaria
+        'Sofia': {'Country': 'Bulgaria', 'Latitude': 42.6977, 'Longitude': 23.3219, 'Flag': 'https://flagcdn.com/bg.svg'},
 
         # Czech Republic
         'Prague': {'Country': 'Czech Republic', 'Latitude': 50.0755, 'Longitude': 14.4378, 'Flag': 'https://flagcdn.com/cz.svg'},
@@ -144,7 +149,8 @@ def load_country_data():
         # Spain
         'Madrid': {'Country': 'Spain', 'Latitude': 40.4168, 'Longitude': -3.7038, 'Flag': 'https://flagcdn.com/es.svg'},
         'Barcelona': {'Country': 'Spain', 'Latitude': 41.3851, 'Longitude': 2.1734, 'Flag': 'https://flagcdn.com/es.svg'},
-
+        'Valencia': {'Country': 'Spain', 'Latitude': 39.4699, 'Longitude': -0.3763, 'Flag': 'https://flagcdn.com/es.svg'},
+        
         # Switzerland
         'Geneva': {'Country': 'Switzerland', 'Latitude': 46.2044, 'Longitude': 6.1432, 'Flag': 'https://flagcdn.com/ch.svg'},
         'Lucerne': {'Country': 'Switzerland', 'Latitude': 47.0502, 'Longitude': 8.3093, 'Flag': 'https://flagcdn.com/ch.svg'},
