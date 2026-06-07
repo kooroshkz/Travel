@@ -20,6 +20,9 @@ def load_country_data():
         #Bulgaria
         'Sofia': {'Country': 'Bulgaria', 'Latitude': 42.6977, 'Longitude': 23.3219, 'Flag': 'https://flagcdn.com/bg.svg'},
 
+        # Croatia
+        'Zagreb': {'Country': 'Croatia', 'Latitude': 45.8150, 'Longitude': 15.9819, 'Flag': 'https://flagcdn.com/hr.svg'},
+
         # Czech Republic
         'Prague': {'Country': 'Czech Republic', 'Latitude': 50.0755, 'Longitude': 14.4378, 'Flag': 'https://flagcdn.com/cz.svg'},
 
@@ -142,6 +145,9 @@ def load_country_data():
         # Russia
         'Moscow': {'Country': 'Russia', 'Latitude': 55.7558, 'Longitude': 37.6176, 'Flag': 'https://flagcdn.com/ru.svg'},
         'Saint Petersburg': {'Country': 'Russia', 'Latitude': 59.9343, 'Longitude': 30.3351, 'Flag': 'https://flagcdn.com/ru.svg'},
+
+        # Serbia
+        'Belgrade': {'Country': 'Serbia', 'Latitude': 44.7866, 'Longitude': 20.4489, 'Flag': 'https://flagcdn.com/rs.svg'},
 
         # Slovakia
         'Bratislava': {'Country': 'Slovakia', 'Latitude': 48.1486, 'Longitude': 17.1077, 'Flag': 'https://flagcdn.com/sk.svg'},
